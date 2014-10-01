@@ -5,29 +5,24 @@ Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
 
-html {color: white;
-  background: blue;
-}
-
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
-
-/* Prevent text-size-adjustments */
-html {
+html {color: black;
+  background: white;
+/*Em ratios provided by http://type-scale.com */
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 3.157em;
 }
 h1 {
-  font-size: 38px;
-  line-height: 48px;
-  margin-bottom: 12px;
-  color: white;
+  font-size: 1em;
+  color: black;
+}
+img {
+display: block;
+max-width: 100%;
 }
 p  {
-  background-color: maroon;
-  margin-top: 60px;
-  margin-bottom: 12px;
+font-site: 3.157em;
+  color: teal;
 }
