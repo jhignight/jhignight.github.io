@@ -5,7 +5,7 @@ Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
 
-html {color: purple;
+html {color: white;
   background: blue;
 }
 
@@ -24,10 +24,10 @@ h1 {
   font-size: 38px;
   line-height: 48px;
   margin-bottom: 12px;
-  color: green;
+  color: white;
 }
 p  {
-  background-color: magenta;
+  background-color: maroon;
   margin-top: 60px;
   margin-bottom: 12px;
 }
