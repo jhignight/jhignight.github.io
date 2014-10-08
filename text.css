@@ -5,21 +5,38 @@ Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
 
-html {color: black;
+html {
+  color: black;
   background: white;
-/*Em ratios provided by http://type-scale.com perfect fourth 1.33*/
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-size: 1em;
+  /*Em ratios provided by http://type-scale.com perfect fourth 1.33*/
 }
+
 h1 {
   font-size: 3.157em;
   color: black;
   text-align: center;
-border:solid;
-  }
+  border: solid;
+  */Hello world*/
+}
+
+h2 {
+  font-size: 3.157em;
+  color: teal;
+  text-align: center;
+  */Welcome to website*/
+}
+
+h3 {
+    font-size: 3.157em;
+    color: teal;
+    text-align: left;
+    */Social media links*/
+    }
 
 img {
 display: block;
