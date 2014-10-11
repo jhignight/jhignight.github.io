@@ -6,8 +6,8 @@ http://yuilibrary.com/license/
 */
 
 html {
-  color: black;
-  background: white;
+  color: red;
+  background: #eef;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -18,7 +18,7 @@ html {
 
 h1 {
   font-size: 3.157em;
-  color: black;
+  color: blue;
   text-align: center;
   border: solid;
   */Hello world*/
@@ -26,14 +26,14 @@ h1 {
 
 h2 {
   font-size: 3.157em;
-  color: teal;
+  color: blue;
   text-align: center;
   */Welcome to website*/
 }
 
 h3 {
     font-size: 3.157em;
-    color: teal;
+    color: blue;
     text-align: left;
     */Social media links*/
     }
@@ -47,13 +47,21 @@ float: right;
 }
 
 figcaption {
-  font-size: .422em;
-  color: grey;
+  font-size: 1em;
+  color: black;
   text-align: center;
   }
 
+img {
+display: block;
+max-width: 100%;
+@media screen and min-width: 100%
+float: left;
+float: right;
+}
+
 p  {
 font-size: 1.777em;
-  color: teal;
+  color: blue;
 
 }
