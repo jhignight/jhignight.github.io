@@ -12,7 +12,6 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   font-size: 1em;
   /*Em ratios provided by http://type-scale.com perfect fourth 1.33*/
 }
@@ -24,20 +23,20 @@ ul#navigation {
 ul#navigation li {
   float: left;
   display: inline;
-  margin-right: 5px;
+  margin-right: .313em;
 }
 
 ul#navigation li a {
   display: block;
-  padding: 5px 10px 5px 10px
-  background-color: blue;
+  padding: .313em .625em .313em .625em
+  background-color: black;
 }
 
 ul#navigation li {
-  width: 100px;
+  width: 6.25em;
   float: left;
   display: inline;
-  margin-right: 5px;
+  margin-right: .313em;
   text-align: center;
 }
 
@@ -46,21 +45,21 @@ h1 {
   color: blue;
   text-align: center;
   border: solid;
-  */Hello world*/
+  /*Hello world*/
 }
 
 h2 {
   font-size: 3.157em;
   color: blue;
   text-align: center;
-  */Welcome to website*/
+  /*Welcome to website*/
 }
 
 h3 {
     font-size: 3.157em;
     color: blue;
     text-align: left;
-    */Social media links*/
+    /*Social media links*/
     }
 
 img {
@@ -81,9 +80,9 @@ display: block;
 max-width: 100%;
 }
 
-@media screen and {min-width: 100%
+@media screen and (min-width: 50%
+{
 float: left;
-float: right;
 }
 
 p  {
