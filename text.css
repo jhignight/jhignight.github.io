@@ -68,7 +68,6 @@ display: block;
 max-width: 100%;
 @media screen and min-width: 100%
 float: left;
-float: right;
 }
 
 figcaption {
