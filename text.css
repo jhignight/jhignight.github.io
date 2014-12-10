@@ -73,15 +73,14 @@ figcaption {
   text-align: center;
   }
 
-.chicago-sears img {
-    transform: rotate(90deg);
-    display: block;
-    max-width: 100%;
-}
 
-@media screen and (min-width: 5em)
-{
-float: left;
+/* Break looks good at 1050px; 1050px / 16px = 65.625em) */
+@media screen and (min-width: 65.625em) {
+  figure {
+    width: 40%;
+    float: left;
+  }
+  .photos + * { clear: both; } /* Don't float content after <figure> elements */
 }
 
 p {
